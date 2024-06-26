@@ -5,7 +5,6 @@ on:
     types: [started]
     
 env:
-  ROM_LINK: your rom's direct link
   ROM_LINK: https://oxygenos.oneplus.net/OnePlus5TOxygen_43_OTA_069_all_2010292144_76910d123e3940e5.zip
   ROM_TYPE: OxygenOS
   BUILD_AB: false
