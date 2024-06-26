@@ -6,11 +6,11 @@ on:
     
 env:
   ROM_LINK: your rom's direct link
-  ROM_LINK: https://downloads.sourceforge.net/project/kevios12a40roms/RELEASE/evolution_a40-ota-rq3a.210905.001-09191220-unofficial-unsigned.zip?ts=gAAAAABhSKfwG2QmwbDIWKLOsgwwVZpzfw45QWhlvk2t-51g5yZWGXMnwAyLCRp3mGdunmuAJJO_fBy4HdKWcfKfI9YvuCEywg%3D%3D&use_mirror=autoselect&r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fkevios12a40roms%2Ffiles%2FRELEASE%2Fevolution_a40-ota-rq3a.210905.001-09191220-unofficial-unsigned.zip%2Fdownload
-  ROM_TYPE: Generic
-  BUILD_AB: true
-  BUILD_AONLY: false
-  ROM_AONLY: A.7z
+  ROM_LINK: https://oxygenos.oneplus.net/OnePlus5TOxygen_43_OTA_069_all_2010292144_76910d123e3940e5.zip
+  ROM_TYPE: OxygenOS
+  BUILD_AB: false
+  BUILD_AONLY: true
+  ROM_AONLY: OxygenOS_10.0.1_OnePlus5T_Aonly.7z
   ROM_AB: AB.7z
 jobs:
   build:
